@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Crossten ExtraBold';
-    src: url('/public/fonts/crossten_extrabold-webfont.woff2') format('woff2'),
-    url('/public/fonts/crossten_extrabold-webfont.woff') format('woff');
+    src: url('../fonts/crossten_extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/crossten_extrabold-webfont.woff') format('woff');
 
 }
 
@@ -20,21 +20,28 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff;
-    padding-bottom: 75px; }
+    padding-bottom: 75px;
+}
+
 @media (min-width: 768px) {
     body {
-        padding-bottom: 110px; } }
+        padding-bottom: 110px;
+    }
+}
 
 .navbar-brand {
-    margin-right: 0; }
+    margin-right: 0;
+}
 
 .navbar-brand img {
 
-    width: 200px }
+    width: 200px
+}
 
 .navbar-dark {
     padding-top: 35px;
-    padding-bottom: 35px; }
+    padding-bottom: 35px;
+}
 
 .navbar-dark .navbar-text {
     font-family: var(--font-content);
@@ -44,39 +51,57 @@ body {
     border-right: 1px solid #ffffff;
     font-size: 18px;
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+}
+
 .navbar-dark .navbar-text:last-child {
-    border-right: 0; }
+    border-right: 0;
+}
+
 @media (max-width: 767px) {
     .navbar-dark {
-        padding-bottom: 0; } }
+        padding-bottom: 0;
+    }
+}
 
 .page-title {
+    font-family: var(--font-heading);
     font-size: 80px;
     font-weight: bold;
-    margin-bottom: 6px; }
+    margin-bottom: 6px;
+}
+
 @media (max-width: 767px) {
     .page-title {
         font-size: 35px;
-        margin-bottom: 14px; } }
+        margin-bottom: 14px;
+    }
+}
 
 .page-description {
     font-family: var(--font-content);
     max-width: 465px;
     font-size: 18px;
-    margin-bottom: 59px; }
+    margin-bottom: 59px;
+}
+
 @media (max-width: 767px) {
     .page-description {
         font-family: var(--font-content);
-        font-size: 14px; } }
+        font-size: 14px;
+    }
+}
 
 p {
     font-size: 14px;
-    margin-bottom: 21px; }
-.connected{
+    margin-bottom: 21px;
+}
+
+.connected {
     font-family: var(--font-content);
     font-size: 18px;
 }
+
 .footer-social-links .social-link {
     display: inline-block;
     text-align: center;
@@ -87,11 +112,16 @@ p {
 
     color: white;
     margin-right: 16px;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+}
+
 .footer-social-links .social-link:last-child {
-    margin-right: 0; }
+    margin-right: 0;
+}
+
 .footer-social-links .social-link:hover {
     text-decoration: none;
     background-color: #4c0459;
-    color: #ffffff; }
+    color: #ffffff;
+}
 
